@@ -1,0 +1,38 @@
+
+{ Educationlist = [
+    {
+      id: 1,
+      date: "2018 - 2022",
+      title: "Bachelor Degree / Jakarta Inaba University",
+      location:"Jakarta,Indonesia",
+      icon:'school',
+      bio: `Major of Science Information Technology. Graduated with honors. And start learning
+        programming with self-taught. Started many programming projects
+        at the college.`
+    },
+    {
+      id: 2,
+      date: "2011 - 2014",
+      title: "Senior High School / SMK ISLAM AL-Muammilin",
+      location:"Indramayu, West Java,Indonesia",
+      icon:'school',
+      bio: `Technology Computer And Network major. Start learn a programming language with VB 6. and as a teaching companion at school.`,
+    },
+    {
+      id: 3,
+      date: "2008 - 2011",
+      title: "Junior High School / SMP NU Kaplongan",
+      location:"Indramayu, West Java,Indonesia",
+      icon:'school',
+      bio: `Started liked in computer.  Start a lot of projects in graphic design and video editing with Potoscape,Power Director.`,
+    },
+    {
+      id: 4,
+      date: "2002 - 2008",
+      title: "Elementary School / SDN 1 Kaplongan",
+      location:"Indramayu, West Java,Indonesia",
+      icon:'school',
+      bio: `SD N 1 Kaplongan Is The First Formal School Which I Attended. Many Achievements Were Obtained And Many Experience Gained.`,
+    },
+  ];
+}
