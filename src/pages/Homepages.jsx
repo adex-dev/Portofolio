@@ -18,8 +18,8 @@ const Homepages = () => {
             </h4>
             <p className="decription font-dominesemi">
               A Professional Front-End Developer From Bekasi, Indonesia. I
-              Always Give The Best Effort For Each Projects I Did. I Give A
-              Solution With{" "}
+              Always Give The Best Effort For Each Project I Did. I Give A
+              Solution With
               <span className="text-dark dark:text-white font-bold">
                 My Creative App
               </span>
