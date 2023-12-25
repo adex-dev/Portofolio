@@ -109,9 +109,9 @@ export const Contact = () => {
                     <div className="w-full mb-8 px-4">
                       <label
                         htmlFor="name"
-                        className="text-base flex justify-start mb-3 text-left text-primary font-bold"
+                        className="text-base flex justify-start mb-3 text-left text-primary"
                       >
-                        Nama
+                        <b>Nama</b>
                       </label>
                       <input
                         type="text"
@@ -126,9 +126,9 @@ export const Contact = () => {
                     <div className="w-full mb-8 px-4">
                       <label
                         htmlFor="email"
-                        className="text-base flex justify-start mb-3 text-left text-primary font-bold"
+                        className="text-base flex justify-start mb-3 text-left text-primary"
                       >
-                        Email
+                        <b>Email</b>
                       </label>
                       <input
                         autoComplete="off"
@@ -143,9 +143,9 @@ export const Contact = () => {
                     <div className="w-full mb-8 px-4">
                       <label
                         htmlFor="pesan"
-                        className="text-base flex justify-start mb-3 text-left text-primary font-bold"
+                        className="text-base flex justify-start mb-3 text-left text-primary"
                       >
-                        Messages
+                        <b>Messages</b>
                       </label>
                       <textarea
                         autoComplete="false"
@@ -165,7 +165,6 @@ export const Contact = () => {
                       </button>
                     </div>
                     <p className="text-primary w-full block mx-auto font-dominebold uppercase text-center text-xs cursor-pointer" >mail: akmadnudin.inc@gmail.com</p>
-          
                   </form>
                   </div>
                 </div>

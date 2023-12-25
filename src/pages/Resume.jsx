@@ -32,7 +32,7 @@ export const Resume = () => {
     fetchData();
   }, []);
   if (data === null) {
-    return <div>Loading...</div>; // Show loading state
+    return <span>Loading...</span>; // Show loading state
   }
   let Sosmeds = [
     {
@@ -64,7 +64,7 @@ export const Resume = () => {
           <div className=" border-slate-400 dark:border-white border-[1px] lg:h-[83vh] min-h-[83vh] overflow-auto lg:w-[80%] max-w-full  py-6">
             <div className="container">
               <p className="uppercase text-lg text-primary  lg:text-2xl font-dominebold text-center underline">
-                <span className="text-slate-400 dark:text-white">My</span>{" "}
+                <span className="text-slate-400 dark:text-white">My</span>&nbsp;
                 <span className="text-primary">Experience</span>
               </p>
               <div className="">
@@ -91,7 +91,7 @@ export const Resume = () => {
                 </VerticalTimeline>
               </div>
               <p className="uppercase text-lg text-primary pt-12  lg:text-2xl font-dominebold text-center underline">
-                <span className="text-slate-400 dark:text-white">My</span>{" "}
+                <span className="text-slate-400 dark:text-white">My</span>&nbsp;
                 <span className="text-primary">Certificate</span>
               </p>
               <div className="">
@@ -115,7 +115,7 @@ export const Resume = () => {
                 </VerticalTimeline>
               </div>
               <p className="uppercase text-lg text-primary  lg:text-2xl font-dominebold py-4 text-center underline">
-                <span className="text-slate-400 dark:text-white">My</span>{" "}
+                <span className="text-slate-400 dark:text-white">My</span>&nbsp;
                 <span className="text-primary">Skill</span>
               </p>
               <p className="inline-flex gap-2 mx-auto w-full text-xs italic text-primary mb-4 capitalize text-primary lg:text-center text-justify justify-center font-dominemedium lg:px-8 px-2">
@@ -185,9 +185,9 @@ export const Resume = () => {
               {Sosmeds.map((sosmed, index) => (
                 <div key={index} className="flex flex-col px-6 justify-center mb-3 w-full lg:w-1/2">
                   <div className="flex justify-center items-center w-full">
-                    <div className="h-24 flex items-center mb-3 w-24 justify-center text-white rounded-full bg-primary text-base text-center">
+                    <i className="h-24 flex items-center mb-3 w-24 justify-center text-white rounded-full bg-primary text-base text-center">
                       {sosmed.svg}
-                    </div>
+                    </i>
                   </div>
                   <div className="flex items-center justify-center mb-3 flex-wrap">
                     <span className="w-full text-base lg:text-lg text-primary text-center capitalize font-semibold p-[2vh 2%]">
@@ -206,36 +206,36 @@ export const Resume = () => {
                 <span className="text-primary">With</span>
               </p>
               <div className="grid gap-4 grid-cols-4 lg:mx-4 mx-2 lg:px-8 px-0 lg:grid-cols-10">
-                <div className="flex flex-col text-primary justify-center items-center">
+                <i className="flex flex-col text-primary justify-center items-center">
                   <FaCss3Alt size={30} />
-                </div>
-                <div className="flex flex-col text-primary justify-center items-center">
+                </i>
+                <i className="flex flex-col text-primary justify-center items-center">
                   <BiLogoTailwindCss size={30} />
-                </div>
-                <div className="flex flex-col text-primary justify-center items-center">
+                </i>
+                <i className="flex flex-col text-primary justify-center items-center">
                   <BiLogoBootstrap size={30} />
-                </div>
-                <div className="flex flex-col text-primary justify-center items-center">
+                </i>
+                <i className="flex flex-col text-primary justify-center items-center">
                   <FaHtml5 size={30} />
-                </div>
-                <div className="flex flex-col text-primary justify-center items-center">
+                </i>
+                <i className="flex flex-col text-primary justify-center items-center">
                   <FaPhp size={30} />
-                </div>
-                <div className="flex flex-col text-primary justify-center items-center">
+                </i>
+                <i className="flex flex-col text-primary justify-center items-center">
                   <DiCodeigniter size={30} />
-                </div>
-                <div className="flex flex-col text-primary justify-center items-center">
+                </i>
+                <i className="flex flex-col text-primary justify-center items-center">
                   <FaReact size={30} />
-                </div>
-                <div className="flex flex-col text-primary justify-center items-center">
+                </i>
+                <i className="flex flex-col text-primary justify-center items-center">
                   <SiMariadb size={30} />
-                </div>
-                <div className="flex flex-col text-primary justify-center items-center">
+                </i>
+                <i className="flex flex-col text-primary justify-center items-center">
                   <SiAdobephotoshop size={30} />
-                </div>
-                <div className="flex flex-col text-primary justify-center items-center">
+                </i>
+                <i className="flex flex-col text-primary justify-center items-center">
                   <SiLaragon size={30} />
-                </div>
+                </i>
               </div>
             </div>
           </div>

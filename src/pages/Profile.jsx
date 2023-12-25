@@ -35,7 +35,7 @@ export const Profile = () => {
     fetchData();
   }, []);
   if (data === null) {
-    return <div>Loading...</div>; // Show loading state
+    return <span>Loading...</span>; // Show loading state
   }
   return (
     <>
@@ -45,7 +45,7 @@ export const Profile = () => {
           <div className=" border-slate-400 dark:border-white border-[1px] lg:h-[83vh] min-h-[83vh] overflow-auto lg:w-[80%] max-w-full  py-6">
             <div className="container">
               <p className="uppercase text-lg text-primary  lg:text-2xl font-dominebold text-center underline">
-                <span className="text-slate-400 dark:text-white">About</span>{" "}
+                <span className="text-slate-400 dark:text-white">About</span>&nbsp;
                 <span className="text-primary">ME</span>
               </p>
               <div className="flex flex-col px-3 lg:px-32 py-4 text-left">
@@ -56,7 +56,7 @@ export const Profile = () => {
                     </span>
                     <span>NAME</span>
                   </div>
-                  <div className="text-secondary">AKMAD NUDIN</div>
+                  <h5 className="text-secondary">AKMAD NUDIN</h5>
                 </div>
                 <div className="flex justify-between p-2">
                   <div className="text-primary uppercase space-x-4 flex items-center ">
@@ -65,7 +65,7 @@ export const Profile = () => {
                     </span>
                     <span>Date Of Birth</span>
                   </div>
-                  <div className="text-secondary">24 October</div>
+                  <h5 className="text-secondary">24 October</h5>
                 </div>
                 <div className="flex justify-between p-2">
                   <div className="text-primary uppercase space-x-4 flex items-center ">
@@ -74,7 +74,7 @@ export const Profile = () => {
                     </span>
                     <span>Phone</span>
                   </div>
-                  <div className="text-secondary">+628-8122012883</div>
+                  <h5 className="text-secondary">+628-8122012883</h5>
                 </div>
                 <div className="flex justify-between p-2">
                   <div className="text-primary uppercase space-x-4 flex items-center ">
@@ -83,7 +83,7 @@ export const Profile = () => {
                     </span>
                     <span>EMAIL</span>
                   </div>
-                  <div className="text-secondary">akmadnudin.inc@gmail.com</div>
+                  <h5 className="text-secondary">akmadnudin.inc@gmail.com</h5>
                 </div>
                 <div className="flex justify-between p-2">
                   <div className="text-primary uppercase space-x-4 flex items-center ">
@@ -92,11 +92,11 @@ export const Profile = () => {
                     </span>
                     <span>Address</span>
                   </div>
-                  <div className="text-secondary">Bekasi,West Java</div>
+                  <h5 className="text-secondary">Bekasi,West Java</h5>
                 </div>
               </div>
               <p className="uppercase text-lg text-primary  lg:text-2xl font-dominebold text-center underline">
-                <span className="text-slate-400 dark:text-white">My</span>{" "}
+                <span className="text-slate-400 dark:text-white">My</span> &nbsp;
                 <span className="text-primary">education</span>
               </p>
               <div className="">
@@ -123,7 +123,7 @@ export const Profile = () => {
                 </VerticalTimeline>
               </div>
               <p className="uppercase text-lg text-primary  lg:text-2xl font-dominebold py-8 text-center underline">
-                <span className="text-slate-400 dark:text-white">My</span>{" "}
+                <span className="text-slate-400 dark:text-white">My</span>&nbsp;
                 <span className="text-primary">Hobbies</span>
               </p>
               <p className="inline-flex gap-2 mx-4 text-xs italic text-primary mb-4 capitalize text-primary lg:text-center text-justify justify-center font-dominemedium lg:px-8 px-2">

@@ -33,7 +33,7 @@ export const Portofolio = () => {
           <div className=" border-slate-400 dark:border-white border-[1px] lg:h-[83vh] min-h-[83vh] overflow-auto lg:w-[80%] max-w-full  py-6">
             <div className="container">
               <p className="uppercase text-lg text-primary  lg:text-2xl font-dominebold text-center underline">
-                <span className="text-slate-400 dark:text-white">My</span>{" "}
+                <span className="text-slate-400 dark:text-white">My</span>&nbsp;
                 <span className="text-primary">Portofolio</span>
               </p>
               <p className="inline-flex gap-2 mx-auto w-full text-xs italic text-primary mb-4 capitalize text-primary lg:text-center text-justify justify-center font-dominemedium lg:px-8 px-2">
