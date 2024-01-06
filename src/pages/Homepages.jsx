@@ -1,43 +1,43 @@
 import React from "react";
 import foto from "../assets/foto.png";
+import { useTranslation } from "react-i18next";
 const Homepages = () => {
+  const [t] = useTranslation("global")
   return (
     <>
-      <div className="container mx-auto px-4 min-h-[90vh] lg:flex py-32 lg:py-12">
+      <div className="lg:container lg:mx-auto w-full  px-4 min-h-[90vh] lg:flex py-20 lg:py-12">
         <div className="grid gap-4 lg:grid-cols-2 grid-cols-1">
-          <div className="flex flex-col leading-10 justify-center lg:-mt-6">
-            <h3 className="uppercase text-primary">HI THERE 🤚,</h3>
-            <h2 className="uppercase text-3xl font-dominebold lg:text-5xl dark:text-white">
-              <b>I'M Akmad Nudin</b>
-            </h2>
-            <h4 className="uppercase text-lg mb-6">
+          <div className="flex flex-col lg:leading-10 leading-relaxed justify-center lg:-mt-6">
+            <h3 className="uppercase text-primary">{t("home.line1")} 🤚,</h3>
+            <h1 className="uppercase text-3xl sm:text-sm 2xs:text-base font-dominebold lg:text-5xl dark:text-white">
+              <b>{t("home.line2")}</b>
+            </h1>
+            <h4 className="uppercase text-lg lg:mb-6 mb-3">
               <span className="font-medium font-dominemedium text-slate-500 text-base mb-5 lg:text-xl">
-                FullStack
-              </span>&nbsp;<span className="font-dominemedium dark:text-white"><b>Web Developer</b></span>
+              {t("home.line3")}
+              </span>&nbsp;<span className="font-dominemedium dark:text-white text-base"><b>{t("home.line4")}</b></span>
             </h4>
-            <p className="decription font-dominesemi">
-              A Professional Front-End Developer From Bekasi, Indonesia. I
-              Always Give The Best Effort For Each Project I Did. I Give A
-              Solution With &nbsp;
-              <span className="text-dark dark:text-white">
-                <b>My Creative App</b>
+            <p className="decription font-dominesemi lg:text-base text-xs">
+              {t("home.line5")} &nbsp;
+              <span className="text-dark dark:text-white lg:text-base text-xs">
+                <b>{t("home.line6")}</b>
               </span>
               .
             </p>
-            <div className="-mt-6 leading-7"><p><span className=" text-slate-400">+62812-2012883</span>
+            <div className="-mt-6 leading-7 lg:text-base md:text-sm text-xs text-balance 2xs:text-[9px]"><p><span className=" text-slate-400">+62812-2012883</span>
             <span className=" text-slate-400 ml-2">akmadnudin.inc@gmail.com</span></p></div>
-            <a href="/contact" className="btnbox w-fit font-dominebold">
-              Download Cv
+            <a href="/cv.pdf" target="_blank"  className="btnbox w-fit font-dominebold">
+            {t("home.line7")}
             </a>
           </div>
-          <div className="flex flex-col leading-10 justify-center w-full lg:w-2/3 mx-auto">
+          <div className="flex flex-col leading-10 justify-center w-full lg:w-2/3 lg:mx-auto ">
             <div className="relative">
               <img
                 src={foto}
                 alt="akmad nudin"
                 className="object-cover relative max-w-full  mx-auto foto rounded-b-sm lg:h-[500px] h-[400px]"
               ></img>
-              <div className="absolute bottom-20 text-xs left-20 leading-5 uppercase text-slate-200 font-semibold">
+              <div className="absolute bottom-20 text-xs md:left-20 lg:left-20 left-14 leading-5 uppercase text-slate-200 font-semibold">
                 <h5>Akmad Nudin</h5>
                 <span>FullStack Developer</span>
               </div>

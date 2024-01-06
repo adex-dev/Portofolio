@@ -1,0 +1,72 @@
+{
+  "bahasa": "US",
+  "navbar": {
+    "line1": "HOME",
+    "line2": "Profile",
+    "line3": "RESUME",
+    "line4": "Portfolio",
+    "line5": "Blog",
+    "line6": "CONTACT"
+  },
+  "home": {
+    "line1": "HI THERE",
+    "line2": "I'M Akmad Nudin",
+    "line3": "FullStack",
+    "line4": "Web Developer",
+    "line5": "A Professional Front-End Developer From Bekasi, Indonesia. IAlways Give The Best Effort For Each Project I Did. I Give A Solution With ",
+    "line6": "My Creative App",
+    "line7": "Download Cv"
+  },
+  "profil": {
+    "line1": "about",
+    "line2": "me",
+    "line3": "NAME",
+    "line4": "Date Of Birth",
+    "line5": "Phone",
+    "line6": "EMAIL",
+    "line7": "Address",
+    "line8": "West Java",
+    "line9": "My",
+    "line10": "education",
+    "line11": "Hobbies",
+    "line12": "Enjoy the storyline deeper by reading a book, or sometimes enjoy some thrilling action scenes just to refresh myself from the routine. Traveling to a beautiful place then take several pictures can be done to find new ideas.",
+    "line13": "BOOK",
+    "line14": "Movie",
+    "line15": "coding",
+    "line16": "Traveling"
+  },
+  "experience": {
+    "low1": "I am ready to start from scratch, or continue the ongoing projects. I always give innovative ideas to build the best applications.",
+    "low2": "Tell your great app to me. Adjust your budget. And your app ready to published.",
+    "low3": "I always give a clean code to the consumer so the application is easy to understand and easy to develop.",
+    "low4": "I will give you the best applications for your best ideas.",
+    "line1": "Inovative Ideas",
+    "line2": "Low Price",
+    "line3": "Clean Code",
+    "line4": "Best Result",
+    "line5": "My",
+    "line6": "Experience",
+    "line7": "My",
+    "line8": "Certificate",
+    "line9": "My",
+    "line10": "Skill",
+    "line11": "Unleashing Creativity: Mastering Tools to Shape Stunning Digital Experiences",
+    "line12": "A Professional Front-End Developer, I Always Give The Best Effort For Each Projects I Did. I Give A Solution With My Creative App",
+    "line13": "Ser",
+    "line14": "Vice",
+    "line15": "I'm Familiar",
+    "line16": "With"
+  },
+  "portfolio": {
+    "line1": "My",
+    "line2": "Portfolio",
+    "line3": "Turning Dreams into Reality - Unleashing the Power of Innovation in Every Project",
+    "line4":"My",
+    "line5":"Channel"
+  },
+  "blog": {
+    "line3": "Turning Dreams into Reality - Unleashing the Power of Innovation in Every Project",
+    "line4":"My",
+    "line5":"Channel"
+  }
+}

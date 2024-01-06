@@ -2,10 +2,12 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Portofolios from "../component/Portofolios";
 import Profiles from "../module/Profiles";
+import { useTranslation } from "react-i18next";
 
 export const Portofolio = () => {
   const navigate = useNavigate();
   const [items,setItems] = useState(null)
+  const [t] = useTranslation("global")
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -27,18 +29,17 @@ export const Portofolio = () => {
   };
   return (
     <>
-      <div className="lg:container mx-auto w-full px-4 lg:h-[90vh] min-h-[90vh]  lg:flex py-12 lg:py-24">
-        <div className="flex lg:flex-row flex-col w-full lg:space-x-3  h-full lg:py-4 lg:mt-3">
+     <div className="lg:container mx-auto w-full px-4 lg:h-[90vh] min-h-[90vh]  lg:flex lg:py-24">
+      <div className="flex lg:flex-row flex-col w-full lg:space-x-3  h-full lg:py-4 lg:mt-3">
           <Profiles/>
           <div className=" border-slate-400 dark:border-white border-[1px] lg:h-[83vh] min-h-[83vh] overflow-auto lg:w-[80%] max-w-full  py-6">
-            <div className="container">
+            <div className="lg:container w-full">
               <p className="uppercase text-lg text-primary  lg:text-2xl font-dominebold text-center underline">
-                <span className="text-slate-400 dark:text-white">My</span>&nbsp;
-                <span className="text-primary">Portofolio</span>
+                <span className="text-slate-400 dark:text-white">{t("portfolio.line1")}</span>&nbsp;
+                <span className="text-primary">{t("portfolio.line2")}</span>
               </p>
               <p className="inline-flex gap-2 mx-auto w-full text-xs italic text-primary mb-4 capitalize text-primary lg:text-center text-justify justify-center font-dominemedium lg:px-8 px-2">
-                Turning Dreams into Reality - Unleashing the Power of Innovation
-                in Every Project
+              {t("portfolio.line3")}
               </p>
               <div className="grid gap-4 grid-cols-1 space-x-2 px-4  lg:grid-cols-3">
                 {items.map((item, id) => (
@@ -49,7 +50,7 @@ export const Portofolio = () => {
                     <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                       <div className="absolute inset-0">
                         <img
-                          className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/80" loading="lazy"
+                          className="h-full w-full rounded-xl object-contain shadow-xl shadow-black/80" loading="lazy"
                           src={item.gambar}
                           alt={item.judul}
                         />

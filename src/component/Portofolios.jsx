@@ -2,7 +2,7 @@ import axios from "axios";
 
 const Portofolios = async () => {
     try {
-      const url = "https://apilib.akmadnudin.com/portofolio.json";
+      const url = process.env.REACT_APP_API+"portofolio.json";
       const response = await axios.get(`${url}`);
       return response.data;
     } catch (error) {

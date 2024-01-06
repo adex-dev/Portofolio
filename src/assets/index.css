@@ -7,6 +7,10 @@
     src: url(fonts/domine/Domine-Regular.ttf);
   }
   @font-face {
+    font-family: inter;
+    src: url(fonts/Inter/Inter.ttf);
+  }
+  @font-face {
     font-family: domine-bold;
     src: url(fonts/domine/Domine-Bold.ttf);
   }

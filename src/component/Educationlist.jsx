@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const Educationlist = async () => {
+const Educationlist = async (alamat) => {
     try {
-      const url = "https://apilib.akmadnudin.com/education.json";
+      const url = process.env.REACT_APP_API+alamat;
       const response = await axios.get(`${url}`);
       return response.data;
     } catch (error) {

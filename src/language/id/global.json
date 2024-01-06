@@ -1,0 +1,73 @@
+{
+  "bahasa":"ID",
+  "navbar":
+      {
+        "line1": "HALAMAN DEPAN",
+        "line2": "PROFIL",
+        "line3": "RINGKASAN",
+        "line4": "portofolio",
+        "line5": "Blog",
+        "line6": "Hubungi"
+    },
+    "home":{
+      "line1": "Halo Semua",
+      "line2": "Saya Akmad Nudin",
+      "line3": "FullStack",
+      "line4": "Web Developer",
+      "line5": "Pengembang Front-End Profesional Dari Bekasi, Indonesia. Saya Selalu Memberikan Upaya Terbaik Untuk Setiap Proyek Yang Saya Kerjakan. Saya Memberikan Solusi Dengan",
+      "line6": " Aplikasi Kreatif Saya",
+      "line7": "Unduh Cv"
+      },
+      "profil": {
+        "line1": "Tentang",
+        "line2": "Saya",
+        "line3": "NAMA",
+        "line4": "Tanggal Lahir",
+        "line5": "Telepone",
+        "line6": "SUREL",
+        "line7": "Alamat",
+        "line8": "Jawa Barat",
+        "line9": "Saya",
+        "line10": "Pendidikan",
+        "line11": "Hobi",
+        "line12": "Nikmati jalan cerita lebih dalam dengan membaca buku, atau terkadang menikmati beberapa adegan aksi yang menegangkan sekadar untuk menyegarkan diri dari rutinitas. Berwisata ke suatu tempat yang indah lalu mengambil beberapa foto bisa dilakukan untuk mencari ide baru.",
+        "line13": "BUKU",
+        "line14": "FILM",
+        "line15": "CODING",
+        "line16": "Bepergian"
+      },
+      "experience": {
+        "low1":"Saya siap untuk memulai dari awal, atau melanjutkan proyek yang sedang berjalan. Saya selalu memberikan ide-ide inovatif untuk membangun aplikasi terbaik.",
+        "low2":"Ceritakan aplikasi hebat Anda kepada saya. Sesuaikan anggaran Anda. Dan aplikasi Anda siap dipublikasikan.",
+        "low3":"Saya selalu memberikan kode yang bersih kepada konsumen agar aplikasi mudah dipahami dan dikembangkan.",
+        "low4":"Saya akan memberi Anda aplikasi terbaik untuk ide-ide terbaik Anda.",
+        "line1": "Ide inovatif",
+        "line2": "Harga Terjangkau",
+        "line3": "Code Bersih",
+        "line4": "Hasil Memuaskan",
+        "line5": "Pengalaman",
+        "line6": "Saya",
+        "line7": "Sertifikat",
+        "line8": "Saya",
+        "line9": "Kemampuan",
+        "line10": "Saya",
+        "line11": "Menumbuhkan Kreativitas: Menguasai Alat untuk Membentuk Pengalaman Digital yang Menakjubkan",
+        "line12": "Sebagai Front-End Developer Profesional, Saya Selalu Memberikan Upaya Terbaik Untuk Setiap Proyek yang Saya Kerjakan. Saya Memberikan Solusi Dengan Aplikasi Kreatif Saya",
+        "line13":"Mela",
+        "line14":"Yani",
+        "line15":"Saya Terbiasa",
+        "line16": "Dengan"
+      },
+      "portfolio": {
+        "line1": "Portofolio",
+        "line2": "Saya",
+        "line3": "Mengubah Impian Menjadi Kenyataan - Melepaskan Kekuatan Inovasi di Setiap Proyek.",
+        "line4":"Channel",
+        "line5":"Saya"
+      },
+      "blog": {
+        "line3": "Mengubah Impian Menjadi Kenyataan - Melepaskan Kekuatan Inovasi di Setiap Proyek.",
+        "line4":"Channel",
+        "line5":"Saya"
+      }
+}
